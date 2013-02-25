@@ -1,11 +1,8 @@
 android-sample
 ==============
 
-#sqlite crud sample
-#Intent sample
-
-
-
+1. sqlite crud sample
+2. Intent sample
 
 usage
 ==============
