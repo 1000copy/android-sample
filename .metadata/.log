@@ -72,3 +72,12 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2013-02-25 13:49:06.304
 !MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-02-25 14:00:22.533
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /sam.Intent/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2013-02-25 14:00:22.534
+!MESSAGE No valid Android XML Editor Delegate found for file /sam.Intent/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.ui 4 4 2013-02-25 14:26:34.605
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.

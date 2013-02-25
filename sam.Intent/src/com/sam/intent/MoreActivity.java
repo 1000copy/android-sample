@@ -2,7 +2,10 @@ package com.sam.intent;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
 
 public class MoreActivity extends Activity {
 
@@ -10,6 +13,11 @@ public class MoreActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_more);
+		// intent
+		Intent intent=getIntent(); 
+        String value=intent.getStringExtra("val"); 
+        TextView et=(TextView)findViewById(R.id.abc); 
+        et.setText(value); 
 	}
 
 	@Override
@@ -18,5 +26,7 @@ public class MoreActivity extends Activity {
 		getMenuInflater().inflate(R.menu.more, menu);
 		return true;
 	}
-
+	public void onExit(View v){
+		finish();
+	}
 }
