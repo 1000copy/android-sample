@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="goMore"
-        android:text="@string/goMore" />
+        android:text="@string/Button" />
 
     <EditText
         android:id="@+id/editText1"
