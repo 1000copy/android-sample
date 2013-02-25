@@ -22,10 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.sam.intent.MoreActivity"
-            android:label="@string/title_activity_more" >
-        </activity>
     </application>
 
 </manifest>
