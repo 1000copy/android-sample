@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"          
+        android:text="@string/color" ></TextView>
+    <Spinner android:id="@+id/spinner" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:prompt="@string/color">
+	</Spinner>
+	<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/button1" 
+	    android:text="开始" android:onClick="startClick" 
+	    />
+	<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/button2" android:text="结束" 
+	    android:onClick="stopClick" />
+	
+          <TextView android:text="0" 
+				    android:id="@+id/et" 
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="top|center"  
+				android:gravity="center"                                     
+				android:textStyle="bold"
+				android:textSize="46dip"     
+                  >
+          </TextView>
+             <TextView android:text="_" 
+				    android:id="@+id/etCount" 
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="top|center"  
+				android:gravity="center"                                     
+				android:textStyle="bold"
+				android:textSize="46dip"     
+                  >
+          </TextView>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/button3" 
+	    android:text="配置" android:onClick="confClick" 
+	    />
+</LinearLayout>
