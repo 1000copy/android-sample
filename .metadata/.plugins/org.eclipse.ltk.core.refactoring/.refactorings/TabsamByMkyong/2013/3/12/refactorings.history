@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;MyAndroidApp&apos;&#x0D;&#x0A;- Original project: &apos;MyAndroidApp&apos;&#x0D;&#x0A;- Original element: &apos;com.mkyong.android.WindowsActivity.java&apos;" description="Delete element" element1="/src&lt;com.mkyong.android{WindowsActivity.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1363575368303" subPackages="false" version="1.0"/>
+</session>
