@@ -38,5 +38,6 @@ public class AndroidTabLayoutActivity extends TabActivity {
         tabHost.addTab(photospec); // Adding photos tab
         tabHost.addTab(songspec); // Adding songs tab
         tabHost.addTab(videospec); // Adding videos tab
+        
     }
 }

@@ -9,4 +9,6 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.app.TabActivity"/>
+<fullyQualifiedTypeName name="com.example.androidtablayout.R.drawable"/>
 </qualifiedTypeNameHistroy>
